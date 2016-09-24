@@ -1,0 +1,84 @@
+PATH
+  remote: /Users/divya/code/ruby/api_banking
+  specs:
+    api_banking (0.1.11)
+      nokogiri
+      typhoeus
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.0.0.1)
+      activesupport (= 5.0.0.1)
+    activerecord (5.0.0.1)
+      activemodel (= 5.0.0.1)
+      activesupport (= 5.0.0.1)
+      arel (~> 7.0)
+    activerecord-oracle_enhanced-adapter (1.7.2)
+      activerecord (~> 5.0.0)
+      arel (~> 7.1.0)
+      ruby-plsql (>= 0.5.0)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (7.1.2)
+    concurrent-ruby (1.0.2)
+    diff-lcs (1.2.5)
+    dotenv (2.1.1)
+    ethon (0.9.1)
+      ffi (>= 1.3.0)
+    factory_girl (4.7.0)
+      activesupport (>= 3.0.0)
+    ffi (1.9.14)
+    i18n (0.7.0)
+    manacle_for (0.0.7)
+      activerecord-oracle_enhanced-adapter
+      api_banking
+      dotenv
+      factory_girl
+      nokogiri
+      rspec
+      ruby-oci8
+    mini_portile2 (2.1.0)
+    minitest (5.9.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.3)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    ruby-oci8 (2.2.2)
+    ruby-plsql (0.6.0)
+    thread_safe (0.3.5)
+    typhoeus (1.1.0)
+      ethon (>= 0.9.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  api_banking!
+  dotenv
+  manacle_for
+  rspec
+
+RUBY VERSION
+   ruby 2.2.2p95
+
+BUNDLED WITH
+   1.12.5
