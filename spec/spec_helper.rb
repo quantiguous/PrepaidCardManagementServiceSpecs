@@ -107,3 +107,5 @@ Dotenv.load
 
 require 'manacle'
 Manacle.setup('PrepaidCardManagementService')
+
+require_relative 'suite'

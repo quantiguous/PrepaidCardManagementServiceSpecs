@@ -1,5 +1,31 @@
-debit_account_no: 
-used_proxy_card: 000000418931
-available_proxy_cards:
-  - 000000418931
-  - 000000418932
+debit_account_no: '000590600000122'
+invalid_debit_account_no: '111591317231299'
+customer_id: '2427'
+used_proxy_card: '000000418931'
+# registered_customer_mobile: '9013213131' #1474873883
+unregistered_customer_mobile: '1474870340'
+available_proxy_card1: '000000419071'
+available_proxy_card2: '000000419072'
+available_proxy_card3: '000000419073'
+available_proxy_card4: '000000419074'
+available_proxy_card5: '000000419075'
+available_proxy_card6: '000000419076'
+available_proxy_card7: '000000419077'
+available_proxy_card8: '000000419078'
+product_attributes:
+  card_acct: '000590600000122'
+  sc_gl_income: 1000
+  card_cust_id: '2427'
+  cust_care_no: '123456'
+  mm_host: 'https://beta-api.mmvpay.com/inyesm/v1'
+  mm_consumer_key: 'tcstqKOIjRQzoOy6stF4XVOaAJw5KP7R'
+  mm_consumer_secret: 'K6dumoioZMgcC2KdEd2L6cZ5ouSNiZpKmQz4i7HL0JtE4aVRIdinTBDDfIYlAjH8'
+  mm_card_type: 'ybyesmoneycard'
+  mm_email_domain: 'quantiguous.com'
+  mm_admin_host: 'https://yesm-ad-uat.mmvpay.com'
+  mm_admin_user: 'tester+yes@matchmove.com'
+  mm_admin_password: 'mmg123456'
+  rkb_user: 'taisys'
+  rkb_password: '91ca2dfffd0997f8a7c941538137b114de84a41f'
+  rkb_bcagent: 'yblesb'
+  rkb_channel_partner: '140'
