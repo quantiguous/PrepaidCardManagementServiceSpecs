@@ -1,9 +1,21 @@
 PATH
   remote: /Users/divya/code/ruby/api_banking
   specs:
-    api_banking (0.1.11)
+    api_banking (0.1.12)
       nokogiri
       typhoeus
+
+PATH
+  remote: /Users/divya/code/ruby/manacle_gem
+  specs:
+    manacle_for (0.0.11)
+      activerecord-oracle_enhanced-adapter
+      api_banking
+      dotenv
+      factory_girl
+      nokogiri
+      rspec
+      ruby-oci8
 
 GEM
   remote: https://rubygems.org/
@@ -33,16 +45,8 @@ GEM
       activesupport (>= 3.0.0)
     ffi (1.9.14)
     i18n (0.7.0)
-    manacle_for (0.0.7)
-      activerecord-oracle_enhanced-adapter
-      api_banking
-      dotenv
-      factory_girl
-      nokogiri
-      rspec
-      ruby-oci8
     mini_portile2 (2.1.0)
-    minitest (5.9.0)
+    minitest (5.9.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -74,7 +78,7 @@ PLATFORMS
 DEPENDENCIES
   api_banking!
   dotenv
-  manacle_for
+  manacle_for!
   rspec
 
 RUBY VERSION
